@@ -52,11 +52,19 @@ Tworzymy formularz zawierający:
 
 # 10 Tworzymy stany i funkcje je ustawiające oraz podpinamy wartości na onChange
 
-# 11 Tworzymy metodę saveData i podpinamy pod przycisk
+# 11 Tworzymy metodę saveUser i podpinamy pod przycisk
 
 Tworzymy obiekt uzytkownika w metodzie a następnie wypisujemy wyniki naszych zmiennych w konsole logu lub alertcie.
 
-# 12 Zapisujemy dane do local storage w saveData 
+# 12 Zapisujemy dane do local storage w saveUser 
 
 Zapisujemy użytkownika w typie string do localStorage, używając JSON.stringify.
 
+
+# 13 Piszemy metodę do ładowania danych - loadUser
+
+# 14 Przedstawiamy ładowanie danych po załadowaniu strony używając useEffect
+
+# 15 Dodajemy value={state} inputach
+
+# 16 Dzielimy komponent na osobne komponenty
