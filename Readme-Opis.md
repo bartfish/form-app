@@ -48,3 +48,15 @@ Tworzymy formularz zawierający:
 * Email
 * Przycisk zatwierdzający
 
+# 9 Omówienie importów 
+
+# 10 Tworzymy stany i funkcje je ustawiające oraz podpinamy wartości na onChange
+
+# 11 Tworzymy metodę saveData i podpinamy pod przycisk
+
+Tworzymy obiekt uzytkownika w metodzie a następnie wypisujemy wyniki naszych zmiennych w konsole logu lub alertcie.
+
+# 12 Zapisujemy dane do local storage w saveData 
+
+Zapisujemy użytkownika w typie string do localStorage, używając JSON.stringify.
+
