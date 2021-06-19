@@ -7,10 +7,7 @@ const Form = () => {
   const [email, setEmail] = useState('')
 
   const saveUser = () => {
-    // console.log(firstname)
-    // console.log(lastname)
-    // console.log(email)
-    
+     
     const user = {
       firstname: firstname,
       lastname: lastname,
@@ -28,7 +25,6 @@ const Form = () => {
     if (user) {
       user = JSON.parse(user)
 
-      console.log(user)
       setFirstname(user.firstname)
       setLastname(user.lastname)
       setEmail(user.email)
@@ -69,8 +65,6 @@ const Form = () => {
 }
 
 function App() {
-
-  
 
   return (
     <div className="App">
