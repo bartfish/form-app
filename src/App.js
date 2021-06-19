@@ -8,9 +8,9 @@ const Form = () => {
   const [email, setEmail] = useState('')
 
   const saveUser = () => {
-    console.log(firstname)
-    console.log(lastname)
-    console.log(email)
+    // console.log(firstname)
+    // console.log(lastname)
+    // console.log(email)
     
     const user = {
       firstname: firstname,
@@ -77,32 +77,6 @@ function App() {
     <div className="App">
       
       <Form />
-
-      {/* result till point 15
-       <div className="form-container">
-
-        <form id="formId" onsubmit="naKlikniecieBtn()">
-          
-          <p>
-            <label for="firstname">Imię</label>
-            <input onChange={(e) => setFirstname(e.target.value)} value={firstname} type="text" id="firstname" name="firstname" placeholder="Podaj swoje imię" />
-          </p>
-
-          <p>
-            <label for="lastname">Nazwisko</label>
-            <input onChange={(e) => setLastname(e.target.value)} value={lastname} type="text" id="lastname" name="lastname" placeholder="Podaj swoje nazwisko" />
-          </p>
-
-          <p>
-            <label for="email">Email</label>
-            <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" id="email" name="email" placeholder="Podaj swoje email" />
-          </p>
-
-          <button onClick={saveUser}>Zapisz</button>
-
-          </form>
-
-      </div> */}
 
     </div>
   );
